@@ -1,16 +1,19 @@
-# React + Vite
+# Typer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimal, distraction-free typing speed test.
 
-Currently, two official plugins are available:
+![Typer](public/og-image.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- Live WPM and accuracy tracking
+- Multiple cursor styles — block, line, underline, outline
+- Theme switcher — dark and light
+- Font switcher — Mono, Serif, Sans, Slab
+- Optional on-screen keyboard with keystroke effect
+- Settings persist across sessions
+- Press `Enter` to restart after a test
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Built with React + Vite.
